@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>module2-solution</title>
+</head>
+<style >
+  /*basic style */
+  * {
+    box-sizing: border-box;
+  }
+  body {
+    background-color: white;
+  }
+  p {
+    position: relative;
+    clear: right;
+  }
+  h1 {
+    margin: 100px;
+    text-align: center;
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 175%;
+  }
+  section {
+    position: relative;
+    padding: 15px;
+    width: 100%;
+  }
+  div {
+    position: relative;
+    background-color: gray;
+    border: 1px solid black;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+  }
+  .sub1 {
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: white;
+
+  }
+  .sub2 {
+    float: right;
+    color: white;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: maroon;
+
+  }
+  .sub3 {
+    color: black;
+    float: right;
+    width: 100px;
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid black;
+    text-align: center;
+    font-size: 125%;
+    font-weight: bold;
+    background-color: tomato;
+
+  }
+  .content {
+    padding: 5px;
+    border: none;
+    background-color: gray;
+    font-family: Helvetica;
+    color: black;
+    margin: 0px;
+    height: 200px;
+    overflow: auto;
+  }
+
+  .row {
+    width: 90%;
+  }
+
+  /*desktop*/
+  @media (min-width: 992px){
+    .column-lg-4 {
+      float: left;
+      width: 33.33%;
+    }
+  }
+  /*tablet */
+  @media (min-width: 768px) and (max-width: 991px){
+    .colmn-md-6 {
+      float: left;
+      width: 50%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .colmn-md-12 {
+      float: left;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+  /*mobile */
+  @media (max-width: 767px){
+    .colmn-sm-12 {
+      float: left;
+      width: 100%;
+    }
+  }
+</style>
+<body >
+<h1>Ecø menu</h1>
+  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <div>
+      <p class="sub1">Burger</p>
+      <p class="content">
+        The test sandwich was offered in three varieties that had similar makeup of the standard Burger King version, the mushroom Swiss and the bacon cheese. In Canada, the hamburger chain Harvey's sells an Angus burger on its menu, while McDonald's Canada introduced an Angus burger in May 2008.In mid-2009, two varieties of the Angus burger were added to McDonald's Australia and New Zealand menus. The first is the "Grand Angus", which consists of Angus beef, mustard, McChicken-sauce mayonnaise, processed cheese, red onion, salad and tomato.
+      </p>
+    </div>
+  </section>
+  <section class="column-lg-4 colmn-md-6 colmn-sm-12">
+    <div>
+      <p class="sub2">Cheese</p>
+      <p class="content">Cheese is a dairy product derived from milk that is produced in a wide range of flavors, textures, and forms by coagulation of the milk protein casein. It comprises proteins and fat from milk, usually the milk of cows, buffalo, goats, or sheep. During production, the milk is usually acidified, and adding the enzymes of rennet causes coagulation. The solids are separated and pressed into final form.[1] Some cheeses have molds on the rind, the outer layer, or throughout. Most cheeses melt at cooking temperature.</p>
+    </div>
+  </section>
+  <section class="column-lg-4 colmn-md-12 colmn-sm-12">
+  <div>
+    <p class="sub3">Milk</p>
+      <p class="content">Milk is a nutrient-rich, white liquid food produced by the mammary glands of mammals. It is the primary source of nutrition for infant mammals before they are able to digest other types of food. Early-lactation milk contains colostrum, which carries the mother's antibodies to its young and can reduce the risk of many diseases. It contains many other nutrients[2] including protein and lactose. Interspecies consumption of milk is not uncommon, particularly among humans, many of whom consume the milk of other mammals.</p>
+  </div>
+</body>
+</html>
